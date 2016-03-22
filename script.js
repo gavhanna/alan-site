@@ -7,7 +7,7 @@
 
 			// route for the home page
 			.when('/', {
-				templateUrl : 'pages/home.html',
+				templateUrl : 'pages/works.html',
 				controller  : 'mainController'
 			})
 
@@ -16,7 +16,7 @@
 				templateUrl : 'pages/about.html',
 				controller  : 'aboutController'
 			})
-			
+
 			// route for the contact page
 			.when('/contact', {
 				templateUrl : 'pages/contact.html',
