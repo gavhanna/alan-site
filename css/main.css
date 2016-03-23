@@ -213,66 +213,6 @@ textarea {
   h3 {
     page-break-after: avoid; } }
 /*
-       Custom CSS compiled from SASS
-*/
-.hide {
-  display: none; }
-
-body {
-  color: #333;
-  font-family: 'Josefin Sans', sans-serif; }
-
-.wrapper {
-  height: 100vh; }
-
-hr {
-  padding-bottom: 50px; }
-
-.fa-arrow-right {
-  position: relative;
-  opacity: 0.5;
-  padding-left: 20px; }
-
-.navigation {
-  font-size: 12px;
-  font-weight: 700; }
-
-.navigation h3 {
-  margin: 0;
-  font-size: 18px; }
-
-/*.navigation a {
-  color: #333;
-  text-decoration: none; }
-.navigation a:hover {
-  text-decoration: none;
-  color: #999999; }*/
-.main-content {
-  padding-top: 70px; }
-
-/*.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 20px;
-    background-color: #f5f5f5;
-    z-index: -1;
-} .footer p {
-  z-index: -1;
-}*/
-.contact-info {
-  text-align: center;
-  padding: 30px;
-  font-size: 30px; }
-
-.contact-info a {
-  color: #333; }
-
-.contact-info a:hover {
-  text-decoration: none;
-  color: #999999; }
-
-/* 
 	3x3 Grid Layout
 */
 .square {
@@ -294,15 +234,6 @@ hr {
   /* = 100% - 2*5% padding */
   padding: 5%; }
 
-.table {
-  display: table;
-  width: 100%;
-  height: 100%; }
-
-.table-cell {
-  display: table-cell;
-  vertical-align: middle; }
-
 /*  For list */
 ul {
   text-align: left;
@@ -315,13 +246,6 @@ li {
   padding: 0; }
 
 /*  For responsive images */
-.content .rs {
-  width: auto;
-  height: auto;
-  max-height: 90%;
-  max-width: 100%;
-  margin-left: 6%; }
-
 /*  For responsive images as background */
 .bg {
   background-position: center center;
@@ -331,7 +255,7 @@ li {
   color: #fff; }
 
 .gallery:hover .img1 {
-  background-image: url("../images/works1/1.jpg"); }
+  background-image: url("https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/10427355_10205782509549123_6490913066405634766_n.jpg?oh=63b1502c3a58f774aa1e013b7a6271c1&oe=5733D0DE&__gda__=1463066529_410bd0899ae26bca319205836237a8fa"); }
 
 .gallery:hover .img2 {
   background-image: url("https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xtp1/v/t1.0-9/10906327_10205782241942433_8623911729483071536_n.jpg?oh=47d8e2fc1ac2f23943ae355e11c40464&oe=572A67C3&__gda__=1466153478_b98f76767782e4fffe4bdc328dc7b487"); }
@@ -367,33 +291,6 @@ li {
   margin: 0;
   padding: 0;
   text-align: left; }
-
-#bottom {
-  clear: both;
-  margin: 0 1.66%;
-  width: 89.68%;
-  padding: 3.5%;
-  background-color: #1E1E1E;
-  color: #fff; }
-
-#bottom p {
-  text-align: center;
-  line-height: 2em; }
-
-#bottom a {
-  color: #000;
-  text-decoration: none;
-  border: 1px solid #000;
-  padding: 10px 20px 12px;
-  line-height: 70px;
-  background: #ccc;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px; }
-
-#bottom a:hover {
-  background: #ECECEC;
-  border: 1px solid #fff; }
 
 .fade {
   opacity: 1;
@@ -467,31 +364,15 @@ li {
 .form-control {
   border-radius: 0px; }
 
-html {
-  position: relative;
-  min-height: 100%; }
-
+/*
+       Custom CSS compiled from SASS
+*/
+/* ================================================
+General styles
+=================================================*/
 body {
-  margin: 0 0 10px;
-  /* bottom = footer height */
-  padding-bottom: 10px; }
-
-footer {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 0px;
-  width: 100%;
-  /*overflow:hidden;*/ }
-
-.vertical-align {
-  position: absolute;
-  top: 50%;
-  left: 0%;
-  transform: translateY(-50%);
-  margin: 0 auto;
-  text-align: center;
-  width: 100%; }
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px; }
 
 .unstyled-link a {
   color: #333;
@@ -501,12 +382,115 @@ footer {
   text-decoration: none;
   color: #999999; }
 
-@media (max-width: 600px) {
-  footer {
-    bottom: -90px; } }
+body, .wrapper {
+  max-width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.navigation {
+  font-weight: lighter;
+  padding: 10px 0px 0px 10px;
+  max-width: 100vw; }
+
+.ng-scope {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  max-width: 100vw;
+  margin: auto; }
+
+/* ================================================
+Works home page styles
+=================================================*/
+.gallery {
+  width: 100vw; }
+  @media screen and (min-width: 600px) {
+    .gallery {
+      width: 60vw; } }
+
+.tiny-gallery {
+  max-width: 280px;
+  position: absolute; }
+  @media screen and (max-width: 600px) {
+    .tiny-gallery {
+      max-width: 30vh; } }
+
+/* ================================================
+Works pages styles
+=================================================*/
+.works-div {
+  margin-top: 10%;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row;
+  -ms-flex-flow: row;
+  flex-flow: row;
+  min-height: 65vh; }
+  .works-div i {
+    opacity: 0.5; }
+    @media screen and (min-width: 600px) {
+      .works-div i {
+        display: none; } }
+  @media screen and (min-width: 600px) {
+    .works-div {
+      padding-left: 30px; } }
+  .works-div .works-text {
+    max-width: 95%; }
+    .works-div .works-text h1 {
+      width: 400px; }
+  .works-div .works-image img {
+    width: 100vw;
+    padding: 20px; }
+    @media screen and (min-width: 900px) {
+      .works-div .works-image img {
+        width: 80vh; } }
+
+/* ================================================
+About page styles
+=================================================*/
+.about {
+  padding: 70px 0px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80vw; }
+  .about .about-content {
+    padding: 0px 20px 0px 20px; }
+  @media screen and (max-width: 600px) {
+    .about {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      width: 100vw; } }
+
+/* ================================================
+Footer styles
+=================================================*/
+footer {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-top: auto;
+  width: 100vw;
+  text-align: center;
+  font-size: 15px;
+  max-width: 900px; }
 
 /*# sourceMappingURL=main.css.map */
-
-.table-cell {
-  color: #222;
-}
