@@ -1,7 +1,7 @@
 @import '_boilerplate';
 @import "_gallery-box";
 
-$break-small: 600px;
+$break-small: 700px;
 $break-middle: 900px;
 /*
        Custom CSS compiled from SASS
@@ -56,8 +56,10 @@ Works home page styles
 
 .gallery {
   width: 100vw;
+  height: 55vw;
   @media screen and (min-width: $break-small) {
     width: 60vw;
+    height: 33vw;
   }
 }
 
@@ -152,3 +154,7 @@ footer {
   font-size: 15px;
   max-width: 900px;
 }
+
+/* ================================================
+=============== With love from Gav ================
+=================================================*/

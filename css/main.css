@@ -234,18 +234,6 @@ textarea {
   /* = 100% - 2*5% padding */
   padding: 5%; }
 
-/*  For list */
-ul {
-  text-align: left;
-  margin: 5% 0 0;
-  padding: 0;
-  list-style-position: inside; }
-
-li {
-  margin: 0 0 0 5%;
-  padding: 0; }
-
-/*  For responsive images */
 /*  For responsive images as background */
 .bg {
   background-position: center center;
@@ -411,15 +399,17 @@ body, .wrapper {
 Works home page styles
 =================================================*/
 .gallery {
-  width: 100vw; }
-  @media screen and (min-width: 600px) {
+  width: 100vw;
+  height: 55vw; }
+  @media screen and (min-width: 700px) {
     .gallery {
-      width: 60vw; } }
+      width: 60vw;
+      height: 33vw; } }
 
 .tiny-gallery {
   max-width: 280px;
   position: absolute; }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 700px) {
     .tiny-gallery {
       max-width: 30vh; } }
 
@@ -441,10 +431,10 @@ Works pages styles
   min-height: 65vh; }
   .works-div i {
     opacity: 0.5; }
-    @media screen and (min-width: 600px) {
+    @media screen and (min-width: 700px) {
       .works-div i {
         display: none; } }
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 700px) {
     .works-div {
       padding-left: 30px; } }
   .works-div .works-text {
@@ -470,7 +460,7 @@ About page styles
   width: 80vw; }
   .about .about-content {
     padding: 0px 20px 0px 20px; }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 700px) {
     .about {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
@@ -492,5 +482,9 @@ footer {
   text-align: center;
   font-size: 15px;
   max-width: 900px; }
+
+/* ================================================
+=============== With love from Gav ================
+=================================================*/
 
 /*# sourceMappingURL=main.css.map */
