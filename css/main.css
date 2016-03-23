@@ -481,7 +481,7 @@ footer {
   width: 100vw;
   text-align: center;
   font-size: 15px;
-  max-width: 900px; }
+  max-width: 100%; }
 
 /* ================================================
 =============== With love from Gav ================
