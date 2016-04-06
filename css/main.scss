@@ -64,7 +64,7 @@ Works home page styles
 }
 
 .tiny-gallery {
-  max-width: 280px;
+  max-width: 150px;
   position: absolute;
   @media screen and (max-width: $break-small) {
     max-width: 30vh;
@@ -76,7 +76,6 @@ Works pages styles
 =================================================*/
 
 .works-div {
-  margin-top: 10%;
   -webkit-align-self: center;
       -ms-flex-item-align: center;
           align-self: center;
@@ -89,7 +88,8 @@ Works pages styles
           flex-flow: row;
   min-height: 65vh;
   i {
-    opacity: 0.5;
+    margin-top: 10%;
+    opacity: 0.8;
     @media screen and (min-width: $break-small) {
       display: none;
     }
@@ -99,7 +99,9 @@ Works pages styles
   }
   .works-text {
     max-width: 95%;
+    padding-top: 10%;
     h1 {
+      font-size: 16px;
       width: 400px;
     }
   }
@@ -108,7 +110,7 @@ Works pages styles
       width: 100vw;
       padding: 20px;
       @media screen and (min-width: $break-middle) {
-        width: 80vh;
+        width: 100vh;
       }
     }
   }

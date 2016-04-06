@@ -299,7 +299,7 @@ textarea {
   z-index: 10; }
 
 .tiny-gallery {
-  width: 350px;
+  width: 250px;
   position: absolute;
   right: 10px;
   top: 10px; }
@@ -407,7 +407,7 @@ Works home page styles
       height: 33vw; } }
 
 .tiny-gallery {
-  max-width: 280px;
+  max-width: 150px;
   position: absolute; }
   @media screen and (max-width: 700px) {
     .tiny-gallery {
@@ -417,7 +417,6 @@ Works home page styles
 Works pages styles
 =================================================*/
 .works-div {
-  margin-top: 10%;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   align-self: center;
@@ -430,7 +429,8 @@ Works pages styles
   flex-flow: row;
   min-height: 65vh; }
   .works-div i {
-    opacity: 0.5; }
+    margin-top: 10%;
+    opacity: 0.8; }
     @media screen and (min-width: 700px) {
       .works-div i {
         display: none; } }
@@ -438,15 +438,17 @@ Works pages styles
     .works-div {
       padding-left: 30px; } }
   .works-div .works-text {
-    max-width: 95%; }
+    max-width: 95%;
+    padding-top: 10%; }
     .works-div .works-text h1 {
+      font-size: 16px;
       width: 400px; }
   .works-div .works-image img {
     width: 100vw;
     padding: 20px; }
     @media screen and (min-width: 900px) {
       .works-div .works-image img {
-        width: 80vh; } }
+        width: 100vh; } }
 
 /* ================================================
 About page styles
