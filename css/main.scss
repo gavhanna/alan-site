@@ -99,7 +99,10 @@ Works pages styles
   }
   .works-text {
     max-width: 95%;
-    padding-top: 10%;
+    padding-top: 20vh;
+    @media (max-width: $break-small){
+      padding-top: 10vh;
+    }
     h1 {
       font-size: 16px;
       width: 400px;
