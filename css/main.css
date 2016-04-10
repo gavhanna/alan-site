@@ -212,9 +212,7 @@ textarea {
   h2,
   h3 {
     page-break-after: avoid; } }
-/*
-	3x3 Grid Layout
-*/
+/* 3x3 Grid Layout */
 .square {
   float: left;
   position: relative;
@@ -243,7 +241,7 @@ textarea {
   color: #fff; }
 
 .gallery:hover .img1 {
-  background-image: url("https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/10427355_10205782509549123_6490913066405634766_n.jpg?oh=63b1502c3a58f774aa1e013b7a6271c1&oe=5733D0DE&__gda__=1463066529_410bd0899ae26bca319205836237a8fa"); }
+  background-image: url("../images/works1/1.jpg"); }
 
 .gallery:hover .img2 {
   background-image: url("https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xtp1/v/t1.0-9/10906327_10205782241942433_8623911729483071536_n.jpg?oh=47d8e2fc1ac2f23943ae355e11c40464&oe=572A67C3&__gda__=1466153478_b98f76767782e4fffe4bdc328dc7b487"); }
@@ -309,7 +307,7 @@ textarea {
     width: 170px; }
 
   .gallery .img1 {
-    background-image: url("https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/10427355_10205782509549123_6490913066405634766_n.jpg?oh=63b1502c3a58f774aa1e013b7a6271c1&oe=5733D0DE&__gda__=1463066529_410bd0899ae26bca319205836237a8fa"); }
+    background-image: url("../images/works1/1.jpg"); }
 
   .gallery .img2 {
     background-image: url("https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xtp1/v/t1.0-9/10906327_10205782241942433_8623911729483071536_n.jpg?oh=47d8e2fc1ac2f23943ae355e11c40464&oe=572A67C3&__gda__=1466153478_b98f76767782e4fffe4bdc328dc7b487"); }
