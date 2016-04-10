@@ -111,7 +111,7 @@ Works pages styles
   .works-image {
     img {
       width: 100vw;
-      padding: 20px;
+      padding: 15vh 20px;
       @media screen and (min-width: $break-middle) {
         width: 100vh;
       }

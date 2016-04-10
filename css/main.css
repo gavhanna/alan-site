@@ -448,7 +448,7 @@ Works pages styles
       width: 400px; }
   .works-div .works-image img {
     width: 100vw;
-    padding: 20px; }
+    padding: 15vh 20px; }
     @media screen and (min-width: 900px) {
       .works-div .works-image img {
         width: 100vh; } }
