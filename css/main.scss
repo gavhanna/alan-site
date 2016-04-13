@@ -17,7 +17,9 @@ body {
 
 .unstyled-link a {
     color: #333;
-    text-decoration: none; }
+    text-decoration: none;
+    transition: all 0.3s;
+  }
   .unstyled-link a:hover {
     text-decoration: none;
     color: #999999; }
@@ -40,6 +42,9 @@ body, .wrapper {
   font-weight: lighter;
   padding: 10px 0px 0px 10px;
   max-width: 100vw;
+  // .title {
+  //   font-weight: bold;
+  // }
 }
 
 .ng-scope {
@@ -98,8 +103,50 @@ Works pages styles
     padding-left: 30px;
   }
   .works-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     max-width: 95%;
-    padding-top: 20vh;
+    h1 {
+      font-size: 16px;
+      width: 400px;
+    }
+  }
+  .works-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    img {
+      width: 100vw;
+      padding: 20px;
+      @media screen and (min-width: $break-middle) {
+        width: 100vh;
+      }
+    }
+    iframe {
+      margin: 20px;
+    }
+  }
+}
+
+/* ================================================
+About page styles
+=================================================*/
+.about-div {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  min-height: 65vh;
+  .about-text {
+    max-width: 80%;
+    padding-top: 10vh;
     @media (max-width: $break-small){
       padding-top: 10vh;
     }
@@ -108,20 +155,14 @@ Works pages styles
       width: 400px;
     }
   }
-  .works-image {
-    img {
-      width: 100vw;
-      padding: 15vh 20px;
-      @media screen and (min-width: $break-middle) {
-        width: 100vh;
-      }
+  i {
+    margin-top: 10%;
+    opacity: 0.8;
+    @media screen and (min-width: $break-small) {
+      display: none;
     }
   }
 }
-
-/* ================================================
-About page styles
-=================================================*/
 
 .about {
   padding: 70px 0px;
@@ -148,16 +189,14 @@ About page styles
 Footer styles
 =================================================*/
 
+
 footer {
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  margin-top: auto;
-  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
   text-align: center;
   font-size: 15px;
-  max-width: 100%;
+  width: 100%;
 }
 
 /* ================================================
