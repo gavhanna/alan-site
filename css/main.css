@@ -456,6 +456,9 @@ Works pages styles
           width: 100vh; } }
     .works-div .works-image iframe {
       margin: 20px; }
+  .works-div .tall-image img {
+    width: 50vw;
+    max-width: 400px; }
 
 /* ================================================
 About page styles
