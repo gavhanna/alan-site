@@ -476,7 +476,7 @@ About page styles
   flex-flow: row;
   min-height: 65vh;
   max-width: 1275px;
-  padding-bottom: 50px;}
+  padding-bottom: 50px; }
   .about-div .about-text {
     max-width: 80%;
     padding-top: 10vh; }
