@@ -105,17 +105,25 @@ Works pages styles
   .works-text {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     max-width: 95%;
     h1 {
       font-size: 16px;
-      width: 400px;
+      width: 600px;
+      margin-top: 20vh;
+      @media screen and (max-width: $break-small) {
+        width: 90vw;
+      }
     }
   }
   .works-image {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-top: 10vh;
+    @media screen and (max-width: $break-small) {
+      margin-top:15vh;
+    }
     img {
       width: 100vw;
       padding: 20px;
@@ -125,6 +133,16 @@ Works pages styles
     }
     iframe {
       margin: 20px;
+    }
+  }
+  .works-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10vh;
+    @media screen and (max-width: $break-small) {
+      justify-content: flex-start;
+      margin-top:15vh;
     }
   }
   .tall-image img {
@@ -148,8 +166,7 @@ About page styles
       -ms-flex-flow: row;
           flex-flow: row;
   min-height: 65vh;
-  max-width: 1275px;
-  padding-bottom: 50px;
+  max-width: 1300px;
   .about-text {
     max-width: 80%;
     padding-top: 10vh;
