@@ -428,7 +428,7 @@ Works pages styles
   flex-flow: row;
   min-height: 65vh; }
   .works-div i {
-    margin-top: 10%;
+    margin-top: 30%;
     opacity: 0.8; }
     @media screen and (min-width: 700px) {
       .works-div i {
@@ -469,7 +469,7 @@ Works pages styles
     @media screen and (max-width: 700px) {
       .works-div .works-video {
         justify-content: flex-start;
-        margin-top: 15vh; } }
+        margin-top: 18vh; } }
   .works-div .tall-image img {
     width: 50vw;
     max-width: 400px; }

@@ -93,7 +93,7 @@ Works pages styles
           flex-flow: row;
   min-height: 65vh;
   i {
-    margin-top: 10%;
+    margin-top: 30%;
     opacity: 0.8;
     @media screen and (min-width: $break-small) {
       display: none;
@@ -142,7 +142,7 @@ Works pages styles
     margin-top: 10vh;
     @media screen and (max-width: $break-small) {
       justify-content: flex-start;
-      margin-top:15vh;
+      margin-top:18vh;
     }
   }
   .tall-image img {
