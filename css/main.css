@@ -398,8 +398,7 @@ body, .wrapper {
 Works home page styles
 =================================================*/
 .gallery {
-  width: 100vw;
-  height: 55vw; }
+  width: 100vw; }
   @media screen and (min-width: 700px) {
     .gallery {
       width: 60vw;
