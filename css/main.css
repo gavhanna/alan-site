@@ -449,9 +449,6 @@ Works pages styles
         .works-div .works-text h1 {
           width: 90vw; } }
   .works-div .works-image {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
     margin-top: 10vh; }
     @media screen and (max-width: 700px) {
       .works-div .works-image {
@@ -492,12 +489,7 @@ About page styles
   -ms-flex-flow: row;
   flex-flow: row;
   min-height: 65vh;
-<<<<<<< HEAD
   max-width: 1300px; }
-=======
-  max-width: 1275px;
-  padding-bottom: 50px;}
->>>>>>> 0a2adc259de3bb5e2e164e3641f8b4d091e0b1bd
   .about-div .about-text {
     max-width: 80%;
     padding-top: 10vh; }
