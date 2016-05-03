@@ -437,9 +437,6 @@ Works pages styles
     .works-div {
       padding-left: 30px; } }
   .works-div .works-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
     max-width: 95%; }
     .works-div .works-text h1 {
       font-size: 16px;
