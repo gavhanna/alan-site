@@ -58,12 +58,15 @@ body, .wrapper {
 /* ================================================
 Works home page styles
 =================================================*/
+.gallery-height {
+  height: 33vw;
+}
 
 .gallery {
   width: 100vw;
   @media screen and (min-width: $break-small) {
     width: 60vw;
-    height: 33vw;
+
   }
 }
 
@@ -109,10 +112,13 @@ Works pages styles
     h1 {
       font-size: 16px;
       width: 600px;
-      margin-top: 20vh;
+      margin-top: 10vh;
       @media screen and (max-width: $break-small) {
         width: 90vw;
       }
+    }
+    p {
+      //width: 500px;
     }
   }
   .works-image {
@@ -121,11 +127,11 @@ Works pages styles
     // justify-content: flex-start;
     margin-top: 10vh;
     @media screen and (max-width: $break-small) {
-      margin-top:15vh;
+      //margin-top:15vh;
     }
     img {
       width: 100vw;
-      padding: 20px;
+      padding: 0 20px 50px 20px;
       @media screen and (min-width: $break-middle) {
         width: 100vh;
       }
@@ -135,9 +141,9 @@ Works pages styles
     }
   }
   .works-video {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
     margin-top: 10vh;
     @media screen and (max-width: $break-small) {
       justify-content: flex-start;
@@ -146,7 +152,7 @@ Works pages styles
   }
   .tall-image img {
     width: 50vw;
-    max-width: 400px;
+    max-width: 306px;
   }
 }
 

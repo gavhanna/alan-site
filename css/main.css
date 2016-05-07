@@ -397,12 +397,14 @@ body, .wrapper {
 /* ================================================
 Works home page styles
 =================================================*/
+.gallery-height {
+  height: 33vw; }
+
 .gallery {
   width: 100vw; }
   @media screen and (min-width: 700px) {
     .gallery {
-      width: 60vw;
-      height: 33vw; } }
+      width: 60vw; } }
 
 .tiny-gallery {
   max-width: 150px;
@@ -440,27 +442,21 @@ Works pages styles
     .works-div .works-text h1 {
       font-size: 16px;
       width: 600px;
-      margin-top: 20vh; }
+      margin-top: 10vh; }
       @media screen and (max-width: 700px) {
         .works-div .works-text h1 {
           width: 90vw; } }
   .works-div .works-image {
     margin-top: 10vh; }
-    @media screen and (max-width: 700px) {
-      .works-div .works-image {
-        margin-top: 15vh; } }
     .works-div .works-image img {
       width: 100vw;
-      padding: 20px; }
+      padding: 0 20px 50px 20px; }
       @media screen and (min-width: 900px) {
         .works-div .works-image img {
           width: 100vh; } }
     .works-div .works-image iframe {
       margin: 20px; }
   .works-div .works-video {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     margin-top: 10vh; }
     @media screen and (max-width: 700px) {
       .works-div .works-video {
@@ -468,7 +464,7 @@ Works pages styles
         margin-top: 18vh; } }
   .works-div .tall-image img {
     width: 50vw;
-    max-width: 400px; }
+    max-width: 306px; }
 
 /* ================================================
 About page styles
