@@ -460,8 +460,7 @@ Works pages styles
     margin-top: 10vh; }
     @media screen and (max-width: 700px) {
       .works-div .works-video {
-        justify-content: flex-start;
-        margin-top: 18vh; } }
+        justify-content: flex-start; } }
   .works-div .tall-image img {
     width: 50vw;
     max-width: 306px; }
